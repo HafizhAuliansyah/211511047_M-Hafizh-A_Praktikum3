@@ -27,6 +27,5 @@ public class Soal2 {
             System.out.printf("%03d\n",angka);
        }
 
-    }
-    
+    } 
 }

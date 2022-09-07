@@ -11,7 +11,6 @@ import java.util.Scanner;
  * @since   2022-09-05
  */
 public class Soal1 {
-
     public static void main(String[] args) {
         String s = "";
         do{
@@ -31,5 +30,4 @@ public class Soal1 {
             System.out.println(w);
         }
     }
-    
 }

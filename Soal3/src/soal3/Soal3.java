@@ -3,7 +3,13 @@ package soal3;
 import java.util.Scanner;
 /** 
  * <h1>Berhitung</h1>
- * Input operasi matematika berupa string dan dilakukan operasinya
+ * Input operasi matematika berupa string dan dilakukan operasi
+ * sesuai dengan string yang dimasukkan
+ * simbol + sebagai penjumlahan
+ * simbol - sebagai pengurangan
+ * simbol * sebagai pengkalian
+ * simbol / sebagai pembagian
+ * Angka dan simbol dipisahkan melalui spasi
  * @author  Hafizh
  * @version 1.0
  * @since   2022-09-05
@@ -29,7 +35,8 @@ public class Soal3 {
                 System.out.println("B tidak boleh lebih dari 1000");
             if(operator != '+' && operator != '-' && operator != '*' && operator != '/')
                 System.out.println("Operasi diluar +, -, *, / +++++");
-        }while(operasi.length > 3 || A < 1 || B > 1000 || (operator != '+' && operator != '-' && operator != '*' && operator != '/'));
+        }while(operasi.length > 3 || A < 1 || B > 1000 
+                || (operator != '+' && operator != '-' && operator != '*' && operator != '/'));
         
         int hasil = 0;
         boolean err = false;
@@ -58,5 +65,4 @@ public class Soal3 {
         if(!err)
             System.out.println(hasil);
     }
-    
 }

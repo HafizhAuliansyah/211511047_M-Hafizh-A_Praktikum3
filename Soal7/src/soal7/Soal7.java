@@ -1,6 +1,12 @@
 
 package soal7;
-
+/** 
+ * <h1>Array</h1>
+ * Proses penampilan array 3 dimensi pada java
+ * @author  Hafizh
+ * @version 1.0
+ * @since   2022-09-05
+ */
 import java.util.Arrays;
 
 public class Soal7 {

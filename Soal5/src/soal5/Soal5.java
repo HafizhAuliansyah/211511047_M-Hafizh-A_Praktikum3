@@ -1,5 +1,14 @@
 
 package soal5;
+/** 
+ * <h1>Buka Tutup Jalanr</h1>
+ * Dimasukkan 4 plat mobil yang lewat
+ * Jika gabungan angka dikurangi 999999 dibai 5 sisa 0, maka mobil harus berhanti
+ * dan begitu pula sebaliknya
+ * @author  Hafizh
+ * @version 1.0
+ * @since   2022-09-05
+ */
 import java.text.ParseException;
 import java.util.Scanner;
 public class Soal5 {
@@ -17,5 +26,4 @@ public class Soal5 {
             System.out.println("Error parsing");
         }
     }
-    
 }

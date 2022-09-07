@@ -23,7 +23,5 @@ public class Soal6 {
         
         System.out.println(tambah);
         System.out.println(kali);
-        
-    }
-    
+    }   
 }
